@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ZapDrive
 
-## Getting Started
+<img width="200"  src= "https://firebasestorage.googleapis.com/v0/b/zapdrive-9f30f.appspot.com/o/zapdrive.png?alt=media&token=a31bdba2-1f98-417a-bc03-b6fb202c1d85" align="left" style="margin-right:15px"/>
 
-First, run the development server:
+Welcome to **ZapDrive**, your ultimate solution for seamless file sharing and storage! With an intuitive interface and powerful features, ZapDrive makes it easy to upload, manage, and share files with anyone, anywhere.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Upload your file directly on our cloud and share it with your friends or colleagues securely with password protection and email notifications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![ZapDrive Preview](/public/zapdrive-readme-preview.png) <!-- Replace with the actual logo path -->
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **User-Friendly Interface**: Effortlessly navigate through your files with our sleek and intuitive design.
+- **Cloud Storage**: Store your files securely in the cloud, accessible from any device, anytime.
+- **Password Protection**: Enhance the security of your files by adding a password, ensuring that only authorized users can access them.
+- **Share Notifications**: Send share notifications via email to notify recipients, or easily copy the download link for direct sharing.
+- **Fast Downloads**: Quick access to your files whenever you need them.
+- **File Management**: Organize your files with ease using folders and tagging.
+- **Cross-Platform Access**: Access your files from any device, whether you're at home, at work, or on the go.
 
-## Learn More
+## 🎨 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+ZapDrive is built using the following technologies:
+[![Tech Stck](https://skillicons.dev/icons?i=nextjs,typescript,supabase,firebase,tailwindcss,vercel)](https://skillicons.dev)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **Firebase**: Provides backend services including Firestore and Cloud Storage.
+- **Shadcn**: For building accessible and customizable UI components.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Clerk**: For user authentication and management.
+- **TypeScript**: For type safety and improved developer experience.
+- **App Router**: For managing routing in Next.js applications.
