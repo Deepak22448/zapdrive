@@ -21,7 +21,10 @@ const HomePage = () => {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link className={buttonVariants({ variant: "secondary" })} href="/">
+            <Link
+              className={buttonVariants({ variant: "secondary" })}
+              href="/upload"
+            >
               Get Started
             </Link>
 
